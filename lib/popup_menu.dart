@@ -9,10 +9,7 @@ import 'package:flutter/material.dart';
 import 'triangle_painter.dart';
 
 abstract class MenuItemProvider {
-  String get menuTitle;
-  Widget get menuImage;
-  TextStyle get menuTextStyle;
-  TextAlign get menuTextAlign;
+  Widget get menuChildWidget;
 }
 
 class MenuItem extends MenuItemProvider {
